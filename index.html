@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Z — social links and online presence.">
+  <meta name="theme-color" content="#050505">
+  <title>Z. — Everywhere / Online</title>
+  <link rel="preload" as="image" href="assets/profile.jpg">
+  <link rel="preload" as="image" href="assets/mountain.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Home">Z.</a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#home">HOME</a>
+      <a href="#links">LINKS</a>
+      <a href="#about">ABOUT</a>
+    </nav>
+
+    <div class="header-note">
+      <span class="note-line"></span>
+      <span>STAY CONNECTED<br>ANYTIME, ANYWHERE.</span>
+    </div>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      MENU <span class="dot"></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#home">HOME</a>
+    <a href="#links">LINKS</a>
+    <a href="#about">ABOUT</a>
+  </div>
+
+  <main id="home">
+    <section class="hero">
+      <div class="side-copy left-copy">
+        <span>A SIMPLE</span>
+        <span>PLACE</span>
+        <span>TO FIND</span>
+        <span>ME</span>
+        <div class="vertical-rule"></div>
+        <small>01</small>
+      </div>
+
+      <div class="hero-title">
+        <h1>FIND ME</h1>
+        <h1 class="outline">ONLINE</h1>
+      </div>
+
+      <div class="profile-block">
+        <div class="profile-frame">
+          <img src="assets/profile.jpg" alt="Profile picture">
+        </div>
+        <h2>Z</h2>
+        <p class="eyebrow">EVERYWHERE&nbsp; / &nbsp;ONLINE</p>
+        <p class="intro">Same person.<br>Different platforms.<br>Let's stay connected.</p>
+        <span class="small-line"></span>
+      </div>
+
+      <div class="mountain-left">
+        <img src="assets/mountain.jpg" alt="" aria-hidden="true">
+        <div class="script-text">Good<br>People<br>Better<br>Days</div>
+      </div>
+
+      <div class="giant-z">
+        <img src="assets/mountain.jpg" alt="" aria-hidden="true">
+        <span>Z</span>
+      </div>
+
+      <div class="side-copy right-copy">
+        <span>MORE</span>
+        <span>THAN</span>
+        <span>JUST</span>
+        <span>LINKS</span>
+        <div class="vertical-rule"></div>
+        <small>EST.<br>2025</small>
+      </div>
+
+      <div class="socials" id="links">
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="social-link">
+          <span class="icon instagram">◎</span><span>INSTAGRAM</span><span class="arrow">→</span>
+        </a>
+        <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer" class="social-link">
+          <span class="icon youtube">▶</span><span>YOUTUBE</span><span class="arrow">→</span>
+        </a>
+        <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="social-link">
+          <span class="icon x-icon">𝕏</span><span>X (TWITTER)</span><span class="arrow">→</span>
+        </a>
+        <a href="https://discord.com/" target="_blank" rel="noopener noreferrer" class="social-link">
+          <span class="icon discord">◉</span><span>DISCORD</span><span class="arrow">→</span>
+        </a>
+        <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="social-link">
+          <span class="icon telegram">➤</span><span>TELEGRAM</span><span class="arrow">→</span>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link">
+          <span class="icon github">◉</span><span>GITHUB</span><span class="arrow">→</span>
+        </a>
+      </div>
+
+      <div class="bottom-left-copy">
+        <span>THE SAME ME</span>
+        <span>ON A DIFFERENT SCREEN</span>
+        <span>BUT ALWAYS REAL.</span>
+      </div>
+
+      <div class="bottom-center">
+        <span class="bottom-line"></span>
+        <span>PEOPLE&nbsp;&nbsp; / &nbsp;&nbsp;IDEAS&nbsp;&nbsp; / &nbsp;&nbsp;CONNECTIONS</span>
+      </div>
+
+      <div class="bottom-right-copy" id="about">
+        <span class="bottom-line"></span>
+        <p>THE SAME ME<br>ON A DIFFERENT SCREEN<br>BUT ALWAYS REAL.</p>
+      </div>
+
+      <div class="scroll-card">
+        <span>SCROLL</span>
+        <span>SCROLL</span>
+        <span>SCROLL</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Z.</span>
+    <span>BUILT FOR THE WEB.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
